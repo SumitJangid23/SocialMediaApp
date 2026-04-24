@@ -1,80 +1,70 @@
-CodeAlpha Social Media App
+# Social Media App
 
-A full-stack social media web application built using the MERN stack.
+A full-stack social media web application built using the MERN stack.  
 Users can create posts, like, comment, follow others, and manage their profiles.
 
----
+## Features
 
-Features
+- User signup and login  
+- Create, edit, and delete posts  
+- Upload images in posts  
+- Like and unlike posts  
+- Add and view comments  
+- Search users  
+- Follow and unfollow users  
+- Profile with image upload  
+- Responsive UI  
 
-- User Signup and Login
-- Create, edit and delete posts
-- Upload images in posts
-- Like and unlike posts
-- Add and view comments
-- Search users
-- Follow and unfollow users
-- Profile with image upload
-- Responsive UI
+## Tech Stack
 
----
+Frontend:
+- React.js  
+- Tailwind CSS  
+- Axios  
 
-Tech Stack
+Backend:
+- Node.js  
+- Express.js  
+- MongoDB (Mongoose)  
 
-Frontend
+## Project Structure
 
-- React.js
-- Tailwind CSS
-- Axios
+backend/
+- models/  
+- routes/  
+- uploads/  
+- server.js  
 
-Backend
+frontend/
+- src/  
+- index.html  
 
-- Node.js
-- Express.js
-- MongoDB (Mongoose)
+## Installation
 
----
+Clone the repository:
 
-Project Structure
+git clone https://github.com/SumitJangid23/SocialMediaApp 
+cd project-folder  
 
-CodeAlpha_SocialMediaApp/
-│
-├── backend/
-│   ├── models/
-│   ├── routes/
-│   ├── uploads/
-│   └── server.js
-│
-├── frontend/
-│   ├── src/
-│   └── index.html
+### Backend Setup
 
----
+cd backend  
+npm install  
+npm start  
 
-Installation
+### Frontend Setup
 
-Clone the repository
+cd frontend  
+npm install  
+npm run dev  
 
-git clone https://github.com/SumitJangid23/CodeAlpha_SocialMediaApp.git
-cd CodeAlpha_SocialMediaApp
+## Environment Variables
 
-Backend
+Create a `.env` file in the backend folder:
 
-cd backend
-npm install
-npm start
+MONGO_URI=your_mongodb_connection_string  
+JWT_SECRET=your_secret_key  
 
-Frontend
+## Author
 
-cd frontend
-npm install
-npm run dev
-
----
-
-Environment Variables
-
-Create a ".env" file in backend folder:
-
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
+Sumit Jangid
